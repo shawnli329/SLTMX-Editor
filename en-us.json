@@ -1,0 +1,88 @@
+{
+  "window": {
+    "title": "SLTMX Editor V1.1"
+  },
+  "app": {
+    "name": "TMX Viewer"
+  },
+  "toolbar": {
+    "open_file_button": "Open TMX File",
+    "file_not_selected_label": "No file selected",
+    "loading_label_prefix": "Loading: ",
+    "loaded_label_prefix": "Loaded: ",
+    "load_failed_label": "Load failed"
+  },
+  "search_section": {
+    "group_title": "Search",
+    "source_search_label": "Source Search:",
+    "source_search_placeholder": "Enter source text to search...",
+    "target_search_label": "Target Search:",
+    "target_search_placeholder": "Enter target text to search...",
+    "clear_search_button": "Clear Search"
+  },
+  "table": {
+    "default_headers": ["Source", "Target"],
+    "source_header_template": "Source ({})",
+    "target_header_template": "Target ({})"
+  },
+  "pagination": {
+    "first_page_button": "First",
+    "prev_page_button": "Previous",
+    "next_page_button": "Next",
+    "last_page_button": "Last",
+    "page_label_template": "Page {} of {}",
+    "page_label_default": "Page 0 of 0",
+    "record_label_template": "{} records total",
+    "record_label_default": "0 records total"
+  },
+  "info_panel": {
+    "file_info_group_title": "File Information",
+    "detail_info_group_title": "Entry Details"
+  },
+  "file_info_content": {
+    "file_info_title": "=== TMX File Information ===",
+    "total_units_label": "Total Translation Units: {}",
+    "source_lang_label": "Source Language: {}",
+    "target_lang_label": "Target Language: {}",
+    "header_info_title": "=== Header Information ===",
+    "notes_title": "=== Notes ===",
+    "properties_title": "=== Properties ==="
+  },
+  "detail_info_content": {
+    "unit_detail_title": "=== Translation Unit Details ===",
+    "tuid_label": "Unit ID: {}",
+    "attributes_title": "=== Unit Attributes ===",
+    "notes_title": "=== Notes ===",
+    "properties_title": "=== Properties ===",
+    "variants_title": "=== All Language Variants ===",
+    "variant_lang_template": "[{}]",
+    "variant_text_template": "Text: {}",
+    "variant_attributes_title": "Attributes:",
+    "variant_notes_title": "Notes:",
+    "variant_properties_title": "Properties:",
+    "no_selection_message": "Please select a translation unit to view details"
+  },
+  "status_messages": {
+    "ready_status": "Ready",
+    "parsing_status": "Parsing TMX file...",
+    "success_status_template": "Successfully loaded {} translation units",
+    "load_failed_status": "Load failed"
+  },
+  "dialogs": {
+    "file_dialog_title": "Select TMX File",
+    "file_dialog_filter": "TMX Files (*.tmx);;All Files (*)",
+    "error_dialog_title": "Error",
+    "parse_error_prefix": "Error parsing file: "
+  },
+  "search_functionality": {
+    "no_results_message": "No matching translation units found"
+  },
+  "icon": {
+    "icon_load_error_template": "Failed to set icon: {}"
+  },
+  "console_messages": {
+    "language_config_not_found": "Language config file {} not found, using default texts",
+    "language_config_parse_error": "Error parsing {}, using default texts",
+    "app_icon_load_error": "Failed to set application icon: {}"
+  }
+}
