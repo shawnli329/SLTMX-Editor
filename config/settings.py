@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+"""
+程序设置和常量
+"""
+
+# 界面设置
+DEFAULT_PAGE_SIZE = 100
+DEFAULT_WINDOW_WIDTH = 1400
+DEFAULT_WINDOW_HEIGHT = 800
+DEFAULT_ROW_HEIGHT = 40
+
+# 颜色设置
+MODIFIED_COLOR = '#abcfdd'
+PRIMARY_COLOR = '#04b84c'
+HOVER_COLOR = '#01dd6d'
+PRESSED_COLOR = '#03db6c'
+
+# 字体设置
+DEFAULT_FONT_FAMILY = "Microsoft YaHei"
+DEFAULT_FONT_SIZE = 12
+MIN_FONT_SIZE = 12
+
+# 文件类型
+TMX_FILE_FILTER = "TMX Files (*.tmx);;All Files (*)"
+
+# DPI设置
+STANDARD_DPI = 144.0
+MIN_SCALE = 1.0

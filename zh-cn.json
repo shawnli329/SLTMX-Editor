@@ -1,0 +1,110 @@
+{
+  "window": {
+    "title": "SLTMX编辑器V1.1"
+  },
+  "toolbar": {
+    "open_file_button": "打开TMX文件",
+    "file_not_selected_label": "未选择文件",
+    "loading_label_prefix": "正在加载: ",
+    "loaded_label_prefix": "已加载: ",
+    "load_failed_label": "加载失败"
+  },
+  "menu": {
+    "file_menu": "文件",
+    "edit_menu": "编辑",
+    "about_menu": "关于",
+    "language_menu": "语言",
+    "open_action": "打开",
+    "close_action": "关闭",
+    "save_action": "保存",
+    "save_as_action": "另存为",
+    "export_action": "导出",
+    "import_action": "导入",
+    "exit_action": "退出",
+    "chinese_action": "中文",
+    "english_action": "English",
+    "about_software_action": "关于软件",
+    "save_as_dialog_title": "另存为TMX文件",
+    "save_success": "文件保存成功",
+    "save_error": "保存文件时出错: ",
+    "save_title": "保存",
+    "function_not_implemented": "功能未实现",
+    "export_not_implemented": "导出功能暂未实现",
+    "import_not_implemented": "导入功能暂未实现"
+  },
+  "about": {
+    "dialog_title": "关于",
+    "dialog_text": "SLTMX编辑器 V1.1\n\nTMX翻译记忆库文件编辑器\n支持查看、编辑和保存TMX文件\n\n作者: https://github.com/shawnli329/SLTMX-Editor\n版本: 1.1"
+  },
+  "search_section": {
+    "group_title": "搜索",
+    "source_search_label": "原文搜索:",
+    "source_search_placeholder": "输入原文内容进行搜索...",
+    "target_search_label": "译文搜索:",
+    "target_search_placeholder": "输入译文内容进行搜索...",
+    "clear_search_button": "清除搜索"
+  },
+  "table": {
+    "default_headers": ["原文", "译文"],
+    "source_header_template": "原文 ({})",
+    "target_header_template": "译文 ({})"
+  },
+  "pagination": {
+    "first_page_button": "首页",
+    "prev_page_button": "上一页",
+    "next_page_button": "下一页",
+    "last_page_button": "末页",
+    "page_label_template": "第 {} 页，共 {} 页",
+    "page_label_default": "第 0 页，共 0 页",
+    "record_label_template": "共 {} 条记录",
+    "record_label_default": "共 0 条记录"
+  },
+  "info_panel": {
+    "file_info_group_title": "文件信息",
+    "detail_info_group_title": "条目详细信息"
+  },
+  "file_info_content": {
+    "file_info_title": "=== TMX文件信息 ===",
+    "total_units_label": "翻译单元总数: {}",
+    "source_lang_label": "源语言: {}",
+    "target_lang_label": "目标语言: {}",
+    "header_info_title": "=== Header信息 ===",
+    "notes_title": "=== 备注 ===",
+    "properties_title": "=== 属性 ==="
+  },
+  "detail_info_content": {
+    "unit_detail_title": "=== 翻译单元详细信息 ===",
+    "tuid_label": "单元ID: {}",
+    "attributes_title": "=== 单元属性 ===",
+    "notes_title": "=== 备注 ===",
+    "properties_title": "=== 属性 ===",
+    "variants_title": "=== 所有语言变体 ===",
+    "variant_lang_template": "[{}]",
+    "variant_text_template": "文本: {}",
+    "variant_attributes_title": "属性:",
+    "variant_notes_title": "备注:",
+    "variant_properties_title": "属性:",
+    "no_selection_message": "请选择一个翻译单元以查看详细信息"
+  },
+  "status_messages": {
+    "ready_status": "就绪",
+    "parsing_status": "正在解析TMX文件...",
+    "success_status_template": "成功加载 {} 个翻译单元",
+    "load_failed_status": "加载失败"
+  },
+  "dialogs": {
+    "file_dialog_title": "选择TMX文件",
+    "file_dialog_filter": "TMX文件 (*.tmx);;所有文件 (*)",
+    "error_dialog_title": "错误",
+    "parse_error_prefix": "解析文件时出错: "
+  },
+  "search_functionality": {
+    "no_results_message": "没有找到匹配的翻译单元"
+  },
+  "icon": {
+    "icon_load_error_template": "设置图标失败: {}"
+  },
+  "edit_hints": {
+    "edit_instruction": "提示：双击编辑，Ctrl+Enter确认，Ctrl+S保存，Esc取消"
+  }
+}

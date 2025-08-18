@@ -12,6 +12,33 @@
     "loaded_label_prefix": "Loaded: ",
     "load_failed_label": "Load failed"
   },
+  "menu": {
+    "file_menu": "File",
+    "edit_menu": "Edit",
+    "about_menu": "About",
+    "language_menu": "Language",
+    "open_action": "Open",
+    "close_action": "Close",
+    "save_action": "Save",
+    "save_as_action": "Save As",
+    "export_action": "Export",
+    "import_action": "Import",
+    "exit_action": "Exit",
+    "chinese_action": "中文",
+    "english_action": "English",
+    "about_software_action": "About Software",
+    "save_as_dialog_title": "Save TMX File As",
+    "save_success": "File saved successfully",
+    "save_error": "Error saving file: ",
+    "save_title": "Save",
+    "function_not_implemented": "Function Not Implemented",
+    "export_not_implemented": "Export function is not yet implemented",
+    "import_not_implemented": "Import function is not yet implemented"
+  },
+  "about": {
+    "dialog_title": "About",
+    "dialog_text": "SLTMX Editor V1.1\n\nTMX Translation Memory File Editor\nSupports viewing, editing and saving TMX files\n\nAuthor: https://github.com/shawnli329/SLTMX-Editor\nVersion: 1.1"
+  },
   "search_section": {
     "group_title": "Search",
     "source_search_label": "Source Search:",
@@ -84,5 +111,8 @@
     "language_config_not_found": "Language config file {} not found, using default texts",
     "language_config_parse_error": "Error parsing {}, using default texts",
     "app_icon_load_error": "Failed to set application icon: {}"
+  },
+  "edit_hints": {
+    "edit_instruction": "Tip: Double-click to edit, Ctrl+Enter to confirm, Ctrl+S to save, Esc to cancel"
   }
 }
