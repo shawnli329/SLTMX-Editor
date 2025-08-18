@@ -1,5 +1,4 @@
 # SLTMX Editor
-SLTMX Editor is a TMX viewer developed specifically for check TMX files, which are widely used by translation and localization companies. SLTMX Editor is developed in Python and uses PyQt5 as its GUI framework. At present, it only supports viewing source and target segments in TMX files as well as the attributes. The segment editing and import/export features will be gradually added in the future.
 
 TMX翻译记忆库文件编辑器，支持查看、编辑和保存TMX文件。
 
